@@ -27,6 +27,7 @@ Fatigue and drowsiness can impair a driver's ability to react quickly and make s
 **Prerequisites**
 
 Ensure the following are installed;
+- [Git](https://git-scm.com/)
 - [Python](https://www.python.org/downloads/)
 - [Jupter Notebook](https://jupyter.org/install) (or install the Jupyter extension on Visual Studio Code).
 
