@@ -1,12 +1,37 @@
+<div align="center">
+  <br />
+    <a href="">
+      <img src="https://github.com/thebugged/drowsiness-detection/assets/74977495/c1b9b4e9-718d-4bda-804e-f984b9792da5" alt="Banner">
+    </a>
+  <br />
 
-![drowsy](driver.jpg)
+  <div>
+    <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python&color=3776AB" alt="python" />
+   <img src="https://img.shields.io/badge/-TensorFlow-black?style=for-the-badge&logoColor=white&logo=tensorflow&color=FF6F00" alt="tensorflow" />
+   <img src="https://img.shields.io/badge/-OpenCV-black?style=for-the-badge&logoColor=white&logo=opencv&color=5C3EE8" alt="opencv" />
+</div>
 
-## 
-# Drowsiness Detector
-Drowsy driving is a serious and potentially life-threatening issue that contributes to road accidents worldwide. Fatigue and drowsiness can impair a driver's ability to react quickly and make sound judgments, leading to accidents with severe consequences. The application utilizes the OpenCV library for real-time video capture and processing, detecting whether a driver is Alert or Drowsy.
+
+  <h3 align="center">Drowsiness Detector </h3>
+
+   <div align="center">
+Fatigue and drowsiness can impair a driver's ability to react quickly and make sound judgments, leading to accidents with severe consequences. The application utilizes the OpenCV library for real-time video capture and processing, detecting whether a driver is Alert or Drowsy.
+    </div>
+</div>
+<br/>
+
+🗃️ The dataset can be accessed here - [Training](https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset),[Testing](https://www.kaggle.com/datasets/adinishad/prediction-images)
 
 
-## Installation
+## Setup & Installation
+**Prerequisites**
+
+Ensure the following are installed;
+- [Python](https://www.python.org/downloads/)
+- [Jupter Notebook](https://jupyter.org/install) (or install the Jupyter extension on Visual Studio Code).
+
+To set up this project locally, follow these steps:
+
 1. Clone the repository:
 ```shell
 git clone https://github.com/thebugged/drowsiness-detection.git
@@ -21,40 +46,17 @@ cd drowsiness-detection
 ```shell
 pip install -r requirements.txt
 ```
+<br/>
 
+## Running the App
+1. Run the `drowsy.ipynb` notebook to get the `drowsy.h5` & `drowsy.json` files to run the aplication.
 
-## Dataset
-The dataset used for training and testing the drowsiness detector is available on Kaggle. You can download it from the following link:
-
-[Train](https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset)
-[Test](https://www.kaggle.com/datasets/adinishad/prediction-images)
-
-
-## AI Model
-To run the Drowsiness Detector, you can make use of the 'drowsy.h5' and 'drowsy.json' included in the repository and run the mainapp.py utilizing open-cv library.
-
-
-### Training the Model
-1. Ensure you have Jupyter Notebook installed. If not, you can install it using the following command:
+2. Make sure the `drowsy.h5`, `drowsy.json` and `mainapp.py` are in the same directory then run the application using the command: 
 ```shell
-   pip install jupyter notebook
-```
-2. Open the drowsy.ipynb Jupyter Notebook.
-3. Run the notebook cells sequentially by clicking on Cell and selecting Run All.
-4. After running all the cells, the 'drowsy.h5' and 'drowsy.json' file will be generated in the same directory as the notebook.
-
-Make sure to place the saved model files in the same directory as the app (mainapp.py) before running the application.
-
-### Running the Application
-
-You can either run it from the terminal or from the run button in the code editor you're making use of.
-```shell
-# running from terminal
    python mainapp.py
 ```
 or
 ```shell
-# running from terminal
    python3 mainapp.py
 ```
 
